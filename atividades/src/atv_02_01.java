@@ -7,16 +7,16 @@ public class atv_02_01 {
         System.out.println("Escolha uma pessoa: ");
         String pessoa = sc.nextLine();
 
-        if (pessoa.equals("Wendel"));{
+        if (pessoa.equalsIgnoreCase("Wendel")){
             encontrarWendel();
         }
-        else if (pessoa.equals("Otavio"));{
+        else if (pessoa.equalsIgnoreCase("Otavio")){
             encontrarOtavio();
         }
-        else if (pessoa.equals("Bruno"));{
+        else if (pessoa.equalsIgnoreCase("Bruno")){
             encontrarBruno();
         }
-        else if (pessoa.equals("Edi"));{
+        else if (pessoa.equalsIgnoreCase("Edi")){
             encontrarEdi();
         }
         else {
